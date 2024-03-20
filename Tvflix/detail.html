@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- primary tag       -->
+    <meta name="desciption" content=" TheMOvieHunt is popular website made by shakya">
+
+
+
+    <!--favicon svg==================-->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+
+
+    <!--custom css========================-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+
+
+    <!--java script link====================-->
+    <script src="./assets/js/global.js" defer></script>
+    <script src="./assets/js/index.js" type="module"></script>
+
+
+
+</head>
+
+<body>
+    <!--headr=======
+    ============-->
+    <header class="header">
+        <a href="./index.html" class="logo">
+            <img src="./assets/images/logo.svg" width="140" height="32" alt="movieshunt home">
+        </a>
+        <div class="search-box">
+            <div class="search-wrapper  ">
+                <input autocomplete="off" type="text" class="search-field" name="search" placeholder="Search  Movies">
+                </input:test>
+                <img src="./assets/images/search.png" alt="search" width="24" height="24" class="leading-icon">
+            </div>
+            <button class="search-btn" search-toggler>
+                <img src="./assets/images/close.png" width="24" height="24" alt="close">
+
+            </button>
+
+
+
+        </div>
+        <div class="search-btn">
+            <img src="./assets/images/search.png" width="24" height="24" alt="">
+        </div>
+        <button class="menu-btn " menu-toggler>
+            <img src="./assets/images/menu.png" class="menu" height="24" width="24">
+            <img src="./assets/images/menu-close.png" class="close" height="24" width="24" alt="close menu">
+        </button>
+
+    </header>
+    <!-----sidebar=============
+        ==============-->
+    <nav class="sidebar ">
+        <div class="sidebar-inner">
+            <div class="sidebar-list">
+                <p class="title">Genre</p>
+                <a href="./movie-list.html" menu-close class="sidebar-link">Action</a>
+                <a href="./movie-list.html" menu-close class="sidebar-link">Horror</a>
+                <a href="./movie-list.html" menu-close class="sidebar-link">Comedy</a>
+                <a href="./movie-list.html" menu-close class="sidebar-link" Adventure</a>
+                    <a href="./movie-list.html" menu-close class="sidebar-link">Sci-Fi</a>
+                    <a href="./movie-list.html" menu-close class="sidebar-link">Drama</a>
+                    <p class="title">Languages</p>
+                    <a href="./movie-list.html" menu-close class="sidebar-link">English</a>
+                    <a href="./movie-list.html" menu-close class="sidebar-link">Hindi</a>
+                    <a href="./movie-list.html" menu-close class="sidebar-link">japnese</a>
+                    <a href="./movie-list.html" menu-close class="sidebar-link" Tamil</a>
+
+                        <div class="sidebar-footer">
+                            <p class="copyright"> &copy;Copyright 2024<a href="www.youtube.com/shakyaff">Shakya
+                                    Technical</a></p>
+
+                            <p><img src="./assets/images/tmdb-logo.png" width="130px" height="17px" alt=""></p>
+                        </div>
+            </div>
+        </div>
+    </nav>
+    <div class="overlay" overlay menu-toggler></div>
+
+    <!-- movie detail======== -->
+    <div class="movie-detail">
+        <div class="backdrop-image" style="background-image: url('./assets/images/slider-banner.jpg');">
+        </div>
+        <figure class="poster-box movie-poster">
+            <img src="./assets/images/slider-control.jpg" class="img-cover" alt=" Puss in Boots: The Last Wish">
+        </figure>
+
+        <div class="detail-box">
+            <div class="detail-content">
+                <h1 class="heading"> Puss in Boots: The Last Wish</h1>
+                <div class="meta-list">
+                    <div class="meta-item">
+                        <img src="./assets/images/star.png" height="20px" width="20px" alt="rating">
+                        <span class="span">8.4</span>
+
+
+                    </div>
+                    <div class="separator"></div>
+                    <div class="meta-item">162m</div>
+                    <div class="separator"></div>
+                    <div class="meta-item">2022</div>
+
+                    <div class="meta-item card-badge">PG-13</div>
+                    <p class="genre">Animation, Action, Adventure</p>
+                    <p class="overview"></p>
+                    <ul class="detail-list">
+                        <div class="list-item">
+                            <p class="list-name">
+                                starring
+                            </p>
+                            <p>
+
+                                Letitia Wright, Lupita Nyong'o, Danai Gurira, Winston Duke, Dominique Thorne, Tenoch
+                                Huerta
+                                Mejía, Angela Bassett, Florence Kasumba, Michaela Coel, Mabel Cadena
+
+                            </p>
+                        </div>
+                        <div class="list-item">
+                            <p class="list-name">
+                                Directed By
+                            </p>
+                            <p>
+                                Ryan Coogler
+                            </p>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <div class="title-wrapper">
+                <h3 class="title-large">Trailers and Clips</h3>
+            </div>
+            <div class="slider-list">
+                <div class="slider-inner">
+                    <div class="video-card"></div>
+                    <div class="video-card"></div>
+                    <div class="video-card"></div>
+                    <div class="video-card"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <article class="container" page-content>
+
+        <!-- movie list -->
+
+        <section class="movie-list">
+            <div class="title-wrapper">
+                <h3 class="title-large">You May Also Like</h3>
+            </div>
+            <div class="slider-list">
+                <div class="slider-inner">
+                    <div class="movie-card">
+                        <figure " class="poster-box card-banner">
+                            <img src="./assets/images/slider-control.jpg" class="img-cover" alt="">
+                        </figure>
+                        <h4 class="title"> Puss in Boots: The Last Wish</h4>
+                        <div class="meta-list">
+                            <div class="meta-item">
+                                <img width="20px" height="20px" src="./assets/images/star.png" loading="lazy"
+                                    alt="rating">
+                                <span class="span">8.4</span>
+
+                            </div>
+                            <div class="card-badge">2022</div>
+                        </div>
+
+                    </div>
+                    <div class="movie-card">
+                        <figure " class="poster-box card-banner">
+                            <img src="./assets/images/slider-control.jpg" class="img-cover" alt="">
+                        </figure>
+                        <h4 class="title"> Puss in Boots: The Last Wish</h4>
+                        <div class="meta-list">
+                            <div class="meta-item">
+                                <img width="20px" height="20px" src="./assets/images/star.png" loading="lazy"
+                                    alt="rating">
+                                <span class="span">8.4</span>
+
+                            </div>
+                            <div class="card-badge">2022</div>
+                        </div>
+
+                    </div>
+                    <div class="movie-card">
+                        <figure " class="poster-box card-banner">
+                            <img src="./assets/images/slider-control.jpg" class="img-cover" alt="">
+                        </figure>
+                        <h4 class="title"> Puss in Boots: The Last Wish</h4>
+                        <div class="meta-list">
+                            <div class="meta-item">
+                                <img width="20px" height="20px" src="./assets/images/star.png" loading="lazy"
+                                    alt="rating">
+                                <span class="span">8.4</span>
+
+                            </div>
+                            <div class="card-badge">2022</div>
+                        </div>
+
+                    </div>
+                    <div class="movie-card">
+                        <figure " class="poster-box card-banner">
+                            <img src="./assets/images/slider-control.jpg" class="img-cover" alt="">
+                        </figure>
+                        <h4 class="title"> Puss in Boots: The Last Wish</h4>
+                        <div class="meta-list">
+                            <div class="meta-item">
+                                <img width="20px" height="20px" src="./assets/images/star.png" loading="lazy"
+                                    alt="rating">
+                                <span class="span">8.4</span>
+
+                            </div>
+                            <div class="card-badge">2022</div>
+                        </div>
+
+                    </div>
+                    <div class="movie-card">
+                        <figure " class="poster-box card-banner">
+                            <img src="./assets/images/slider-control.jpg" class="img-cover" alt="">
+                        </figure>
+                        <h4 class="title"> Puss in Boots: The Last Wish</h4>
+                        <div class="meta-list">
+                            <div class="meta-item">
+                                <img width="20px" height="20px" src="./assets/images/star.png" loading="lazy"
+                                    alt="rating">
+                                <span class="span">8.4</span>
+
+                            </div>
+                            <div class="card-badge">2022</div>
+                        </div>
+
+                    </div>
+               
+
+
+
+                </div>
+            </div>
+
+        </section>
+
+    </article>
+</body>
+
+</html>
